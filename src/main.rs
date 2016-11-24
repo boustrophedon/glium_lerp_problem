@@ -104,7 +104,6 @@ fn main() {
         };
         frame.draw(&box_vb, &indices, &box_shader, &uniforms, &params).unwrap();
         frame.finish().unwrap();
-        window.swap_buffers().unwrap();
 
         prev_t = curr_t;
         curr_t = time::PreciseTime::now();

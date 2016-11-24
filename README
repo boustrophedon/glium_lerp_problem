@@ -1,0 +1,1 @@
+I was having a problem with stuttering in glium, but the problem turned out to be that I was calling glium::Display::swap_buffers even though Frame::finish calls it internally. Thanks @kvark!
