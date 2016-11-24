@@ -1,0 +1,9 @@
+[package]
+name = "rendertest"
+version = "0.1.0"
+authors = ["Harry Stern <hcs@meow.sh>"]
+
+[dependencies]
+nalgebra = "0.10"
+glium = "0.15"
+time = "*"
